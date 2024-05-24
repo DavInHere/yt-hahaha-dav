@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/lib/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Downloader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>YouTube Video Downloader</h1>
+        <div><input type="text" id="url" placeholder="Enter YouTube URL"></div>
+        <div><button id="fetchInfo">Fetch Info</button></div>
+        <div id="videoDetails" style="display: none;">
+            <img id="thumbnail" class="thumbnail" src="" alt="Thumbnail">
+            <h2 id="title"></h2>
+            <div id="formats"></div>
+        </div>
+        <p id="error" style="color: red;"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
